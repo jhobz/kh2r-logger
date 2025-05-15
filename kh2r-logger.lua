@@ -17,8 +17,8 @@ function _OnInit()                                                         -- Ru
         return
     end
 
-    Log('KH2 Rando Seed Logger (v0.1.0)') -- Using Log() will use an appropriate console print call per platform
-    RequireKH2LibraryVersion(2.1)         -- Declares the minimum version of the library required by this script
+    Log('KH2 Rando Seed Logger (v0.1.1)') -- Using Log() will use an appropriate console print call per platform
+    RequireKH2LibraryVersion(3)           -- Declares the minimum version of the library required by this script
     -- RequirePCGameVersion()                -- Declares that this script was only written for the PC ports of KH2 (optional)
 
     can_execute = kh2lib.CanExecute -- kh2lib sets this to false if any conditions declared above were not met
