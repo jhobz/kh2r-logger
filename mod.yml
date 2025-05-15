@@ -1,0 +1,8 @@
+title: KH2 Rando Seed Logger (v0.1.0)
+originalAuthor: JHobz
+description: Logs out (to a file) the path and actions a user takes during a KH2 Rando seed
+assets:
+- name: scripts/kh2r-logger.lua
+  method: copy
+  source:
+  - name: kh2r-logger.lua
